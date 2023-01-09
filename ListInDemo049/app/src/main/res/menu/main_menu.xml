@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/night_mode"
+        android:orderInCategory="100"
+        android:title="@string/night_mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/open_input_control"
+        android:orderInCategory="100"
+        android:title="@string/open_input_control"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/open_listview"
+        android:orderInCategory="100"
+        android:title="@string/open_listview"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/open_recycle"
+        android:orderInCategory="100"
+        android:title="@string/open_recycle"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="100"
+        android:title="@string/quit"
+        app:showAsAction="never" />
+</menu>
